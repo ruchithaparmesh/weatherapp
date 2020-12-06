@@ -36,7 +36,7 @@ firebase.auth().createUserWithEmailAndPassword(emailu,passwordu)
   .then((user) => {
      
 
-     window.location ="entry.html";
+     window.location ="index.html";
   })
 	.catch(e => console.log(e.message));
 });
